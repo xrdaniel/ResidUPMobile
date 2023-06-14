@@ -12,9 +12,10 @@ container: {
 body: {
     padding: 20,
     backgroundColor: '#545555',
-    height: 300,
+    height: 350,
     width: '90%',
-
+    borderBottomLeftRadius: 15,
+    borderBottomRightRadius: 15
 },
 
 bodyLadoaLado: {
@@ -24,15 +25,17 @@ bodyLadoaLado: {
 },
 
 textHeader: {
+  height: 30,
   backgroundColor: "#E6E6E6",
   width: '90%',
   fontWeight: 'bold',
   fontSize: 12,
-  padding: 5
+  padding: 5,
 },
 textHeaderDown: {
   backgroundColor: "#E6E6E6",
   width: '90%',
+  height: 30,
   fontWeight: 'bold',
   fontSize: 12,
   padding: 5,
@@ -54,8 +57,8 @@ textInput: {
 
 inputTitulo: {
 
-   height: 30, 
-   width: 120,
+   height: 33, 
+   width: 160,
    borderColor: '#E6E6E6', 
    backgroundColor: '#E6E6E6',
    borderWidth: 1,
@@ -64,7 +67,7 @@ inputTitulo: {
 inputDescricao: {
 
    height: 200, 
-   width: 245,
+   width: 335,
    borderColor: '#E6E6E6', 
    backgroundColor: '#E6E6E6',
    marginTop: 50,
@@ -74,6 +77,6 @@ inputDescricao: {
 buttonSalvar: {
   width: '20%',
   borderRadius: 20,
-  backgroundColor: '#01BE63'
+  backgroundColor: 'black'
 }
 })

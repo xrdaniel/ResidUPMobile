@@ -5,7 +5,7 @@ export default StyleSheet.create({
     flexDirection: 'row',
     backgroundColor: 'gray',
     alignItems: 'center',
-    height: 120,
+    height: 100,
   },
   menuButton: {
     marginLeft: 10,
@@ -13,6 +13,7 @@ export default StyleSheet.create({
   titleContainer: {
     flex: 1,
     alignItems: 'center',
+    marginLeft: 50,
   },
   titleText: {
     color: '#FFFFFF',

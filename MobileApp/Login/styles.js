@@ -6,30 +6,31 @@ container: {
     backgroundColor: '#fff'
 },
 header: {
-    height: 70,
+    height: 60,
     width: '100%'
 },
 text :{
     color: 'white',
-    fontSize: 20,
-    fontWeight: 500,
+    fontSize: 30,
+    fontWeight: "bold",
     marginBottom: 30
 },
 body: {
     padding: 20,
-    marginTop: 'auto',
+    marginTop: 50,
     marginBottom: 'auto',
     alignItems: 'center',
     backgroundColor: '#545555',
     height: 400,
-    width: '80%',
-    marginLeft: 'auto',
+    width: 350,
+    marginLeft: 20,
     marginRight: 'auto',
     borderRadius: 20
 },
 background: {
     flex: 1,
-    resizeMode: 'center',
-    justifyContent: 'center',
+    width: 1400,
+    height: 800,
+
   }
 })

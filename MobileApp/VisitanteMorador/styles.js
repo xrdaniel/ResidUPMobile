@@ -16,6 +16,8 @@ body: {
     backgroundColor: '#545555',
     height: 300,
     width: '90%',
+    borderBottomLeftRadius: 15,
+    borderBottomRightRadius: 15,
 
 },
 
@@ -29,7 +31,8 @@ textHeader: {
   width: '90%',
   fontWeight: 'bold',
   fontSize: 12,
-  padding: 5
+  padding: 5,
+  marginTop: 30,
 },
 
 textHeaderDown: {
@@ -55,11 +58,12 @@ textInput: {
 
 inputNome: {
    height: 30, 
-   width: 120,
+   width: 190,
    borderColor: '#E6E6E6', 
    backgroundColor: '#E6E6E6',
    borderWidth: 1,
-   borderRadius: 20
+   borderRadius: 20,
+   textAlign: 'center'
 },
 
 inputDocumento: {

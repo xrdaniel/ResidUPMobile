@@ -7,9 +7,9 @@ const Reserva = () => {
       <View style={styles.box}>
         <Text style={styles.title}>Nova Reserva</Text>
         <View style={styles.inputContainer}>
-          <TextInput style={styles.input} placeholder=" Área" />
-          <TextInput style={styles.input} placeholder="Horário" />
-          <TextInput style={styles.input} placeholder="Data" />
+          <TextInput style={styles.input} placeholder=" Área" placeholderTextColor='black' />
+          <TextInput style={styles.input} placeholder="Horário" placeholderTextColor='black' />
+          <TextInput style={styles.input} placeholder="Data" placeholderTextColor='black' />
         </View>
         <TouchableOpacity style={styles.button} onPress={() => {}}>
           <Text style={styles.buttonText}>Salvar</Text>
@@ -19,19 +19,19 @@ const Reserva = () => {
       <View style={styles.form}>
         <Text style={styles.title}>Minhas Reservas</Text>
         <View style={styles.inputContainer}>
-          <TextInput style={styles.input} placeholder="Churrasqueira" editable={false} />
-          <TextInput style={styles.input} placeholder="15H as 18H" editable={false} />
-          <TextInput style={styles.input} placeholder="15/06/2023" editable={false} />
+          <TextInput style={styles.input} placeholder="Churrasqueira" placeholderTextColor='black' editable={false} />
+          <TextInput style={styles.input} placeholder="15H as 18H" placeholderTextColor='black' editable={false} />
+          <TextInput style={styles.input} placeholder="15/06/2023" placeholderTextColor='black' editable={false} />
         </View>
         <View style={styles.inputContainer}>
-          <TextInput style={styles.input} placeholder="Piscina" editable={false} />
-          <TextInput style={styles.input} placeholder="10H as 12H" editable={false} />
-          <TextInput style={styles.input} placeholder="16/06/2023" editable={false} />
+          <TextInput style={styles.input} placeholder="Piscina" placeholderTextColor='black' editable={false} />
+          <TextInput style={styles.input} placeholder="10H as 12H" placeholderTextColor='black' editable={false} />
+          <TextInput style={styles.input} placeholder="16/06/2023" placeholderTextColor='black' editable={false} />
         </View>
         <View style={styles.inputContainer}>
-          <TextInput style={styles.input} placeholder="Quadra de Tênis" editable={false} />
-          <TextInput style={styles.input} placeholder="14H as 16H" editable={false} />
-          <TextInput style={styles.input} placeholder="20/06/2023" editable={false} />
+          <TextInput style={styles.input} placeholder="Quadra de Tênis" placeholderTextColor='black' editable={false} />
+          <TextInput style={styles.input} placeholder="14H as 16H" placeholderTextColor='black' editable={false} />
+          <TextInput style={styles.input} placeholder="20/06/2023" placeholderTextColor='black' editable={false} />
         </View>
       </View>
     </View>
@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
     marginBottom: 20,
     borderRadius: 15,
     backgroundColor: 'red',
-    height: 150,
+    height: 200,
     backgroundColor: '#6b6969',
   },
   form: {
@@ -64,8 +64,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     marginBottom: 15,
     backgroundColor: 'white',
-    borderTopLeftRadius: 10,
-    borderTopRightRadius: 10,
+    borderRadius: 15,
     paddingHorizontal: 10,
     textAlign: 'center',
   },
@@ -76,6 +75,8 @@ const styles = StyleSheet.create({
   },
   input: {
     flex: 1,
+    height: 30,
+    color: 'black',
     borderWidth: 1,
     borderColor: 'white',
     marginLeft: 10,
@@ -88,11 +89,12 @@ const styles = StyleSheet.create({
   button: {
     backgroundColor: '#04ff00',
     paddingVertical: 6,
-    marginTop: 10,
-    marginLeft: 170,
+    marginTop: 60,
+    marginLeft: 250,
     marginRight: 25,
     borderRadius: 15,
     alignItems: 'center',
+    width: 100,
   },
   buttonText: {
     color: 'white',

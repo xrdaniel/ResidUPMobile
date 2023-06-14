@@ -44,13 +44,13 @@ const VisitantesMorador = () => {
            style={Styles.inputNome}
            onChangeText={nomeCompleto => setNomeCompleto(nomeCompleto)}
            value={nomeCompleto}
-           placeholder="NOME COMPLETO"/>
+           placeholder="NOME COMPLETO" placeholderTextColor='#999999' />
 
        <TextInput
         style={Styles.inputDocumento}
           onChangeText={documentoRG => setDocumentoRG(documentoRG)}
           value={documentoRG}
-          placeholder=" RG DO VISITANTE"
+          placeholder=" RG DO VISITANTE" placeholderTextColor='#999999'
           
         />
         </View> 
@@ -58,12 +58,12 @@ const VisitantesMorador = () => {
             style={Styles.inputContato}
               onChangeText={contatoVisitante => setContatoVisitante(contatoVisitante)}
               value={contatoVisitante}
-              placeholder="       CONTATO"
+              placeholder="(11) 99999-9999" placeholderTextColor='#999999'
             /> 
             
          <Button 
       title="SALVAR" 
-      color="#01BE63"
+      color="#01BE63" 
       style={{ borderRadius: 10 }} 
       onPress={adicionarVisitante}
       /> 
